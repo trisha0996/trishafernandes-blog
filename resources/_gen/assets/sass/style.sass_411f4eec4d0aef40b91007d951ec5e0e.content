@@ -6871,7 +6871,7 @@ label.panel-block {
       padding: 18rem 1.5rem; } }
 .footer {
   background-color: #fafafa;
-  padding: 3rem 1.5rem 6rem; }
+  padding: 1rem 1.5rem 2rem; }
 
 /* ==========================================================================
 Main SCSS file / Fresh
