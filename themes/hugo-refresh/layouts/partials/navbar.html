@@ -40,16 +40,6 @@
             {{- end -}}
           </a>
         {{- end -}}
-        {{ range .Site.RegularPages }}
-          {{- if eq .Params.showInMenu true -}}
-          <a href="{{- .Permalink | relURL -}}" class="navbar-item is-secondary">
-            {{- if $showIcons -}}
-              <i class="fa fa-file-text" style="color:{{- print $mainColour -}};">&nbsp;</i>
-            {{- end -}}            
-            {{- .Title -}}
-          </a>
-          {{- end -}}
-        {{- end -}}
         {{- range .Site.Sections -}}
           {{- $shmenu := true -}}
           {{- if (isset .Params "showinmenu") -}}
@@ -86,6 +76,16 @@
             {{- end -}}
           {{- end -}}
         {{- end -}}
+        {{ range .Site.RegularPages }}
+        {{- if eq .Params.showInMenu true -}}
+        <a href="{{- .Permalink | relURL -}}" class="navbar-item is-secondary">
+          {{- if $showIcons -}}
+            <i class="fa fa-file-text" style="color:{{- print $mainColour -}};">&nbsp;</i>
+          {{- end -}}            
+          {{- .Title -}}
+        </a>
+        {{- end -}}
+      {{- end -}}
         
         {{ $currentLang := .Site.Language.Lang }}
         {{ $languageNumber := len $.Site.Home.AllTranslations }}
