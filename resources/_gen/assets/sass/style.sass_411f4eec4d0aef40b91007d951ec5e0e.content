@@ -1207,11 +1207,11 @@ a.box:active {
       border-color: transparent;
       box-shadow: none; }
   .button.is-white {
-    background-color: white;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: #0a0a0a; }
     .button.is-white:hover, .button.is-white.is-hovered {
-      background-color: #f9f9f9;
+      background-color: #ff92a3;
       border-color: transparent;
       color: #0a0a0a; }
     .button.is-white:focus, .button.is-white.is-focused {
@@ -1271,11 +1271,11 @@ a.box:active {
         box-shadow: none;
         color: #0a0a0a; }
   .button.is-black {
-    background-color: #0a0a0a;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: white; }
     .button.is-black:hover, .button.is-black.is-hovered {
-      background-color: #040404;
+      background-color: #ff92a3;
       border-color: transparent;
       color: white; }
     .button.is-black:focus, .button.is-black.is-focused {
@@ -1335,11 +1335,11 @@ a.box:active {
         box-shadow: none;
         color: white; }
   .button.is-light {
-    background-color: whitesmoke;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: #363636; }
     .button.is-light:hover, .button.is-light.is-hovered {
-      background-color: #eeeeee;
+      background-color: #ff92a3;
       border-color: transparent;
       color: #363636; }
     .button.is-light:focus, .button.is-light.is-focused {
@@ -1399,11 +1399,11 @@ a.box:active {
         box-shadow: none;
         color: #363636; }
   .button.is-dark {
-    background-color: #363636;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: whitesmoke; }
     .button.is-dark:hover, .button.is-dark.is-hovered {
-      background-color: #2f2f2f;
+      background-color: #ff92a3;
       border-color: transparent;
       color: whitesmoke; }
     .button.is-dark:focus, .button.is-dark.is-focused {
@@ -1463,11 +1463,11 @@ a.box:active {
         box-shadow: none;
         color: whitesmoke; }
   .button.is-primary {
-    background-color: #00d1b2;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: #fff; }
     .button.is-primary:hover, .button.is-primary.is-hovered {
-      background-color: #00c4a7;
+      background-color: #ff92a3;
       border-color: transparent;
       color: #fff; }
     .button.is-primary:focus, .button.is-primary.is-focused {
@@ -1527,11 +1527,11 @@ a.box:active {
         box-shadow: none;
         color: #fff; }
   .button.is-link {
-    background-color: #3273dc;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: #fff; }
     .button.is-link:hover, .button.is-link.is-hovered {
-      background-color: #276cda;
+      background-color: #ff92a3;
       border-color: transparent;
       color: #fff; }
     .button.is-link:focus, .button.is-link.is-focused {
@@ -1591,11 +1591,11 @@ a.box:active {
         box-shadow: none;
         color: #fff; }
   .button.is-info {
-    background-color: #209cee;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: #fff; }
     .button.is-info:hover, .button.is-info.is-hovered {
-      background-color: #1496ed;
+      background-color: #ff92a3;
       border-color: transparent;
       color: #fff; }
     .button.is-info:focus, .button.is-info.is-focused {
@@ -1655,11 +1655,11 @@ a.box:active {
         box-shadow: none;
         color: #fff; }
   .button.is-success {
-    background-color: #23d160;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: #fff; }
     .button.is-success:hover, .button.is-success.is-hovered {
-      background-color: #22c65b;
+      background-color: #ff92a3;
       border-color: transparent;
       color: #fff; }
     .button.is-success:focus, .button.is-success.is-focused {
@@ -1719,11 +1719,11 @@ a.box:active {
         box-shadow: none;
         color: #fff; }
   .button.is-warning {
-    background-color: #ffdd57;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: rgba(0, 0, 0, 0.7); }
     .button.is-warning:hover, .button.is-warning.is-hovered {
-      background-color: #ffdb4a;
+      background-color: #ff92a3;
       border-color: transparent;
       color: rgba(0, 0, 0, 0.7); }
     .button.is-warning:focus, .button.is-warning.is-focused {
@@ -1783,11 +1783,11 @@ a.box:active {
         box-shadow: none;
         color: rgba(0, 0, 0, 0.7); }
   .button.is-danger {
-    background-color: #ff3860;
+    background-color: #FFB6C1;
     border-color: transparent;
     color: #fff; }
     .button.is-danger:hover, .button.is-danger.is-hovered {
-      background-color: #ff2b56;
+      background-color: #ff92a3;
       border-color: transparent;
       color: #fff; }
     .button.is-danger:focus, .button.is-danger.is-focused {
