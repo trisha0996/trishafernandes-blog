@@ -6902,7 +6902,8 @@ Navbar
   .navbar.is-fresh .navbar-end {
     align-items: center; }
   .navbar.is-fresh .navbar-menu .navbar-item {
-    text-align: center !important; }
+    text-align: center !important;
+    font-size: 20px; }
   @media (max-width: 1024px) {
     .navbar.is-fresh .navbar-menu .navbar-link {
       padding: 10px 20px !important; } }
