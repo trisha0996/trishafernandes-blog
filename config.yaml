@@ -71,14 +71,6 @@ params:
     # option to specify the main font of the theme
     fontFamily: "Roboto Slab" 
 
-  # sidebar options
-  sidebar:
-    # option to specify the logo of the sidebar
-    # the starting folder is configure in "assetDir" of this file
-    logo: "/images/refresh-square.svg"
-    # option to specify the font of the sidebar
-    fontFamily: "Roboto Slab" # "Open Sans"
-
   # navbar options
   navbar:
     # option to specify the font used in the navbar
@@ -112,7 +104,7 @@ params:
     # option to specify image in the homepage
     image: "/images/avataaars.png" # worker.svg 
     # option to specify the width of the image in the homepage
-    imageWidth: 400px
+    imageWidth: 380px
 
   # footer options
   footer:
