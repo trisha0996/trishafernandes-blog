@@ -1,6 +1,6 @@
 ---
 title: "Blog Post 3"
-date: 2019-06-17T23:53:00+01:00
+# date: 2019-06-17T23:53:00+01:00
 draft: true
 hideLastModified: true
 summary: "This is blog post 3 with a custom image."
