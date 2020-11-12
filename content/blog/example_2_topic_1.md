@@ -1,7 +1,7 @@
 ---
 title: "Blog Post 2"
 # date: 2019-06-17T23:53:00+01:00
-draft: false
+draft: true
 hideLastModified: true
 summary: "This is blog post 2"
 ---

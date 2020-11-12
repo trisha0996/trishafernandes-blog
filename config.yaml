@@ -2,7 +2,6 @@ baseURL: https://trishafernandes.com
 languageCode: en-gb
 title: Trisha Fernandes
 theme: hugo-refresh
-# theme: ../..
 
 #########################################
 ######## Uncomment this option ##########
@@ -84,11 +83,11 @@ params:
     # the starting folder is configure in "assetDir" of this file
     image: "/images/avataaars_404.png"
     # option to specify the title of the 404 page
-    title: 404 Page Not Found :(
+    title: Page Not Found :(
     # option to specify the subtitle of the 404 page
-    subtitle: This is not the page you were looking for...
+    # subtitle: This is not the page you were looking for
     # option to specify the width of the image in the 404 page
-    imageWidth: 400px
+    imageWidth: 380px
 
   # homepage options
   homepage:
@@ -142,13 +141,6 @@ params:
     # option to specify the copyright in the footer
     copyright: Trisha Fernandes 2020
 
-###################################################################
-################## multilanguage support options ##################
-###################################################################
-# languages:
-#   en:
-#     languageName:       English
-#     weight:             1
 
 deployment:
   order:
