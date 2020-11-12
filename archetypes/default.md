@@ -1,6 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-draft: true
+title: "trishafernandes.com"
+date: 12-11-2020
+draft: false
 ---
-
