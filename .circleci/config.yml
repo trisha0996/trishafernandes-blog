@@ -3,12 +3,12 @@ version: 2.1
 commands:
   deploy-dev:
     description: "Command to deploy hugo to dev"
-    steps:
-      - run: hugo deploy --target trishafernandes-dev
+    steps: 
+      - run: hugo && hugo deploy --target trishafernandes-dev
   deploy-prod:
     description: "Command to deploy hugo to prod"
     steps:
-      - run: hugo deploy --target trishafernandes-prod
+      - run: hugo && hugo deploy --target trishafernandes-prod
   gcloud-auth:
     steps:
       - run:
