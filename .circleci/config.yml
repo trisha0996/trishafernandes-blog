@@ -9,46 +9,41 @@ commands:
     description: "Command to deploy hugo to prod"
     steps:
       - run: hugo deploy --target trishafernandes-prod
+  gcloud-auth:
+    steps:
+      - run:
+          name: Authenticate to Google
+          command: |
+            echo $GCLOUD_SERVICE_KEY | base64 -d > /tmp/gcloud-service-key.json
 
 executors:
   docker-image:
     docker:
-      - image: trisha0996/alpine-hugo:0.1
+      - image: trisha0996/alpine-hugo:0.4
 
 jobs:
-  test:
-    executor: docker-image
-    steps:
-      - run: echo 'CircleCI config test'
-  get-code:
-    executor: docker-image
-    steps:
-      - checkout
-      - run: echo 'Code received!'
   staging:
     executor: docker-image
     steps:
+      - checkout
+      - gcloud-auth
       - deploy-dev
   production:
     executor: docker-image
     steps:
+      - checkout
+      - gcloud-auth
       - deploy-prod
 
 workflows:
   version: 2
   publish:
     jobs:
-      - test
-      - get-code:
-          requires:
-            - test
-      - staging:
-          requires:
-            - get-code
+      - staging
       - hold:
           type: approval
           requires:
-            - get-code
+            - staging
           filters:
             branches:
               ignore: master
