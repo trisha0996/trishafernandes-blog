@@ -1959,7 +1959,7 @@ a.box:active {
   margin-top: 0.25em; }
 
 .content p {
-  font-size: 1.25em; }
+  font-size: 1.00em; }
 
 .content p:not(:last-child),
 .content dl:not(:last-child),
@@ -2003,8 +2003,8 @@ a.box:active {
   margin-bottom: 0.8em; }
 
 .content h5 {
-  font-size: 1.125em;
-  margin-bottom: 0.8888em; }
+  font-size: 1.18em;
+  margin-bottom: 0.5em; }
 
 .content h6 {
   font-size: 1em;
