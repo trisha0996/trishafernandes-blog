@@ -7,7 +7,7 @@ hideLastModified: true
 ---
 
 - Website built using [Hugo](https://gohugo.io/)
-- [Hugo](https://gohugo.io/) theme used - modified version of [Hugo ReFresh](https://themes.gohugo.io/hugo-refresh/)
+- Theme used - modified version of [Hugo ReFresh](https://themes.gohugo.io/hugo-refresh/)
 - Website code can be found on my [GitHub](https://github.com/trisha0996/trishafernandes-blog)
 - Avatar from [avataaars generator](https://getavataaars.com/)
-- Share buttons using [AddToAny] (https://www.addtoany.com/)
+- Share buttons using [AddToAny](<https://www.addtoany.com/>)

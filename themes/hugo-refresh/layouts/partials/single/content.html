@@ -20,11 +20,22 @@
       </div>
     </div>
   </div> -->
+  {{- if .Params.PublishDate -}}
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
+        {{ "Date Published" }}:&nbsp;
+        {{- .PublishDate.Format "2 January 2006" -}}
+      </div>
+    </div>
+  </div>
+  {{- end -}}
+
   {{- if not .Params.hideLastModified -}}
   <div class="container">
     <div class="columns">
       <div class="column has-text-right is-family-monospace is-centered-tablet-portrait">
-        {{ i18n "lastModified" }}:&nbsp;
+        {{ "Last Modified" }}:&nbsp;
         {{- .Lastmod.Format "2 January 2006" -}}
       </div>
     </div>
@@ -32,7 +43,7 @@
   {{- end -}}
 
     <!-- Share Buttons -->
-    <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:30px; top:400px;">
+    <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="right:30px; top:350px;">
       <a class="a2a_button_linkedin"></a>
       <a class="a2a_button_twitter"></a>
       <a class="a2a_button_facebook"></a>

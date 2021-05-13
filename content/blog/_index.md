@@ -1,5 +1,6 @@
 ---
 title: "Blog"
-date: 2019-06-04T21:55:06+01:00
+date: 30-04-2021
 draft: false
+summaryImage: "blog_post_default_image.jpg"
 ---

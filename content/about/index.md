@@ -1,6 +1,5 @@
 ---
 title: "About"
-date: 2020-11-12
 draft: false
 hideLastModified: true
 showInMenu: true
