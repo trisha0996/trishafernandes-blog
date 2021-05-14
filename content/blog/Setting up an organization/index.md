@@ -15,7 +15,7 @@ This is a high-level overview on how to set up a GCP organization & host a stati
 1. [Buy a domain name](##1.-Buy-a-domain-name)
 2. [Resolve DNS](#resolve-dns)
 3. [Set up identity management](#set-up-identity-management)
-4. [Set up organisation](#####set-up-organisation)
+4. [Set up organisation](#####4. set-up-organisation)
 5. [Host website](#hosts-website)
 6. [Apply CI/CD](#apply-ci-cd)
 
