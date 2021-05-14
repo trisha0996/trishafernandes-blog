@@ -296,7 +296,7 @@ body {
   color: #4a4a4a;
   font-size: 1em;
   font-weight: 400;
-  line-height: 1.5; }
+  line-height: 1.45; }
 
 a {
   color: #3273dc;
@@ -1959,7 +1959,7 @@ a.box:active {
   margin-top: 0.25em; }
 
 .content p {
-  font-size: 1.25em; }
+  font-size: 1.00em; }
 
 .content p:not(:last-child),
 .content dl:not(:last-child),
@@ -1968,7 +1968,7 @@ a.box:active {
 .content blockquote:not(:last-child),
 .content pre:not(:last-child),
 .content table:not(:last-child) {
-  margin-bottom: 1em; }
+  margin-bottom: 0.6em; }
 
 .content h1,
 .content h2,
@@ -1981,10 +1981,10 @@ a.box:active {
   line-height: 1.125; }
 
 .content h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em; }
+  font-size: 1.3em;
+  margin-bottom: 0.6em; }
   .content h1:not(:first-child) {
-    margin-top: 1em; }
+    margin-top: 1.0em; }
 
 .content h2 {
   font-size: 1.75em;
@@ -2003,8 +2003,8 @@ a.box:active {
   margin-bottom: 0.8em; }
 
 .content h5 {
-  font-size: 1.125em;
-  margin-bottom: 0.8888em; }
+  font-size: 1.18em;
+  margin-bottom: 0.5em; }
 
 .content h6 {
   font-size: 1em;
@@ -2103,6 +2103,9 @@ a.box:active {
 .content.is-large {
   font-size: 1.5rem; }
 
+img[src="resource-hierarchy.png"] {
+  width: 500px; }
+
 .icon {
   align-items: center;
   display: inline-flex;
@@ -2118,6 +2121,9 @@ a.box:active {
   .icon.is-large {
     height: 3rem;
     width: 3rem; }
+
+img[src="resource-hierarchy.png"] {
+  width: 500px; }
 
 .image {
   display: block;
