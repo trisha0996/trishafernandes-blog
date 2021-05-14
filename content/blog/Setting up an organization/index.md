@@ -9,23 +9,25 @@ summary: "Set up your own organisation and website based on the products and tec
 summaryImage: "resource-hierarchy.png"
 ---
 
-#### Introduction
+# Introduction
 This is a high-level overview on how to set up a GCP organization & host a static website. More specifically, this demonstrates how I set up my organisation, created my website and the tools used to do so, in the following steps:
 
-1. [Buy a domain name](##1.-Buy-a-domain-name)
+1. [Buy a domain name](#buy-a-domain-name)
 2. [Resolve DNS](#resolve-dns)
 3. [Set up identity management](#set-up-identity-management)
-4. [Set up organisation](#####4.set-up-organisation)
-5. [Host website](#hosts-website)
-6. [Apply CI/CD](#apply-ci-cd)
+4. [Set up organisation](#set-up-organization)
+5. [Host website](#host-website)
+6. [Apply CI/CD](#apply-cicd)
 
-##### 1. Buy a domain name
+
+
+# Buy a domain name
 
 The first step is to register a domain name with a registrar. I bought my domain name on [namecheap](https://www.namecheap.com/). There are many popular domain registrars you can choose from depending on the pricing structures, bundles and web hosting options and other add-on services. Some examples are [GoDaddy](https://uk.godaddy.com/domains/domain-name-search), [Domain.com](https://www.domain.com/domains) and [Google Domains](https://domains.google/).
 
 Some of the reasons to go with [namecheap](https://www.namecheap.com/) are its ease of use, free Whois privacy and as the name suggests, it's relatively cheap.
 
-##### 2. Resolve DNS
+# Resolve DNS
 
 Namecheap offers a default DNS service, as is with most domain name registrars. But, these are very basic free DNS services and usually lack advanced DNS capabilities; this is where [Cloudflare DNS](https://dash.cloudflare.com/sign-up) comes in. Having the fastest authoritative DNS in the world, built-in DDoS protection and its 100% uptime, are just a few of the reasons to choose Cloudflare DNS.
 
@@ -33,7 +35,7 @@ Some alternatives to Cloudflare DNS are [Google Cloud DNS](https://cloud.google.
 
 You can use [this guide](https://www.namecheap.com/support/knowledgebase/article.aspx/9607/2210/how-to-set-up-dns-records-for-your-domain-in-cloudflare-account/) to change the nameservers to Cloudflare.
 
-##### 3. Set up identity management
+# Set up identity management
 
 Identity management has to be set up to enable organisations to use single sign-on (SSO using SAML or OIDC), authentication and access controls. To use Google Cloud, you must use a Google identity service. My "Identity as a service (IDaaS)" provider of choice for my organisation was Cloud Identity (free edition). You could, however, also use Cloud Identity Premium Edition or Google Workspace (formerly called G Suite).  
 
@@ -49,7 +51,7 @@ If you are already using a non-Google identity provider, you still need a Google
 
 Follow [section 1](https://cloud.google.com/docs/enterprise/setup-checklist#checklist-section-1) in the Google Cloud provided checklist to set up a Cloud Identity account and verify your domain.
 
-##### 4. Set up organization
+# Set up organization
 
 Once you verify your domain, an organization resource gets automatically created for you in GCP.
 
@@ -59,7 +61,7 @@ This is what my organisation structure looks like (up to project level):
 
 ![Resource](resource-hierarchy.png)
 
-##### 5. Host website
+# Host website
 
 After setting up your organization, the next step is to host the website.
 
@@ -78,7 +80,7 @@ Follow the steps below to configure a GCS bucket to host your website:
 
 I have a development website/subdomain separate from the main website that houses all content until it is ready to be released and published into the main website, and because I have both testing and production projects/websites, I have one bucket per project, with the corresponding domain names as bucket names.
 
-##### 6. Apply CI/CD
+# Apply CI/CD
 
 I have to manually deploy content to both development and production on my website which can be quite challenging if operating in a large organization and as code grows larger and more complex. These manual operations can be avoided by implementing CI/CD into the code.
 

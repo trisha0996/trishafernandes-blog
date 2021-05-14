@@ -1968,7 +1968,7 @@ a.box:active {
 .content blockquote:not(:last-child),
 .content pre:not(:last-child),
 .content table:not(:last-child) {
-  margin-bottom: 1em; }
+  margin-bottom: 0.6em; }
 
 .content h1,
 .content h2,
@@ -1981,10 +1981,10 @@ a.box:active {
   line-height: 1.125; }
 
 .content h1 {
-  font-size: 2em;
-  margin-bottom: 0.5em; }
+  font-size: 1.3em;
+  margin-bottom: 0.6em; }
   .content h1:not(:first-child) {
-    margin-top: 1em; }
+    margin-top: 1.0em; }
 
 .content h2 {
   font-size: 1.75em;
@@ -2103,8 +2103,8 @@ a.box:active {
 .content.is-large {
   font-size: 1.5rem; }
 
-img[alt=Resource] {
-  width: 250px; }
+img[src="resource-hierarchy.png"] {
+  width: 500px; }
 
 .icon {
   align-items: center;
@@ -2121,6 +2121,9 @@ img[alt=Resource] {
   .icon.is-large {
     height: 3rem;
     width: 3rem; }
+
+img[src="resource-hierarchy.png"] {
+  width: 500px; }
 
 .image {
   display: block;
