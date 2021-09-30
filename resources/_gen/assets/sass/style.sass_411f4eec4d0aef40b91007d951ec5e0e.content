@@ -1981,10 +1981,10 @@ a.box:active {
   line-height: 1.125; }
 
 .content h1 {
-  font-size: 1.3em;
+  font-size: 1.35em;
   margin-bottom: 0.6em; }
   .content h1:not(:first-child) {
-    margin-top: 1.0em; }
+    margin-top: 0.5em; }
 
 .content h2 {
   font-size: 1.75em;
@@ -2123,7 +2123,7 @@ img[src="resource-hierarchy.png"] {
     width: 3rem; }
 
 img[src="resource-hierarchy.png"] {
-  width: 500px; }
+  width: 600px; }
 
 .image {
   display: block;
